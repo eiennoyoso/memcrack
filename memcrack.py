@@ -27,7 +27,7 @@ with open(args.memcacheds) as memcached_addr_file:
         memcached_host_port = memcached_addr.rstrip().split(":")
         
         if len(memcached_host_port) == 1:
-            memcached_host_port[1] = "11211";
+            memcached_host_port.append("11211");
         
         memcached_addr_list.append(
             {

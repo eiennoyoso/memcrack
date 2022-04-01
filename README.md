@@ -12,7 +12,7 @@ tcpdump -i lo tcp port 6666 -vv -X
 Start `tcpdump` for UDP on eth0:
 
 ```
-tcpdump -i lo tcp port 6666 -vv -X
+tcpdump -i lo udp port 6666 -vv -X
 ```
 
 Send direct UDP packet to target:
