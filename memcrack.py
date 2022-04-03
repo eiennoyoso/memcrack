@@ -5,7 +5,7 @@ from scapy.all import *
 import argparse
 
 # Parse CLI arguments and options
-argparser = argparse.ArgumentParser(prog="mycrack.py")
+argparser = argparse.ArgumentParser(prog="memcrack.py")
 argparser.add_argument(
     'memcacheds', 
     help='Path to file with memcached addresses. One per line. Port delimited by ":"'
